@@ -1,6 +1,6 @@
 {
   "name": "express-match-request",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Express middleware for matching requests to a pattern",
   "main": "index.js",
   "scripts": {
