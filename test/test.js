@@ -1,6 +1,6 @@
 /* globals describe, it */
 
-var matchRequest = require('../index.js');
+var matchRequest = require('../index.js');      // eslint-disable-line no-unused-vars
 
 describe('package', function() {
     describe('match-request', function() {

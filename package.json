@@ -4,7 +4,7 @@
   "description": "Express middleware for matching requests to a pattern",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "./node_modules/.bin/eslint . && ./node_modules/.bin/mocha"
   },
   "repository": {
     "type": "git",
@@ -22,5 +22,9 @@
   "bugs": {
     "url": "https://github.com/webextensions/express-match-request/issues"
   },
-  "homepage": "https://github.com/webextensions/express-match-request#readme"
+  "homepage": "https://github.com/webextensions/express-match-request#readme",
+  "devDependencies": {
+    "eslint": "3.16.1",
+    "mocha": "3.2.0"
+  }
 }
