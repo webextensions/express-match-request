@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "jsdoc": "./node_modules/.bin/jsdoc index.js --destination jsdoc",
-    "test": "./node_modules/.bin/eslint . && ./node_modules/.bin/mocha"
+    "lint": "./node_modules/.bin/eslint --ignore-path .gitignore .",
+    "test": "./node_modules/.bin/eslint --ignore-path .gitignore . && ./node_modules/.bin/mocha"
   },
   "repository": {
     "type": "git",
