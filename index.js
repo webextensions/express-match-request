@@ -7,7 +7,7 @@
  * @param {Function} next - Next function
  */
 
- /**
+/**
   * The condition to be matched (<b>.pattern</b> is used for match with request and other attributes are used for response)
   * @typedef {Object} MatchCondition
   * @property {String} pattern                  - <b>"none"</b> or <b>falsy-value</b> would match none

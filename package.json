@@ -26,8 +26,8 @@
   },
   "homepage": "https://github.com/webextensions/express-match-request#readme",
   "devDependencies": {
-    "eslint": "3.16.1",
-    "jsdoc": "3.4.3",
-    "mocha": "3.2.0"
+    "eslint": "5.16.0",
+    "jsdoc": "3.6.2",
+    "mocha": "6.1.4"
   }
 }
